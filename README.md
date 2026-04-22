@@ -24,6 +24,7 @@ AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
 - 25 个 root skills
 - Claude / Cursor 适配层
 - Claude 项目级 skills 与专家会诊 subagents
+- Pack / Bundle / Orchestrator 组织骨架
 - Figma 高保真还原能力包
 - QA / 发布 / 回滚模板
 - 固定治理输出
@@ -71,6 +72,8 @@ AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
   Claude Code 项目级适配、skills 和 subagents
 - `.cursor/`
   Cursor 规则和命令适配层
+- `aivibe/`
+  Pack / Bundle / Contracts / 项目实例配置骨架
 - `Top能力/`
   更强的独立能力包，例如 `Figmatocode`
 - `开发过程/`

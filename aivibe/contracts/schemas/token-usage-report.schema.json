@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIVibe Token Usage Report",
+  "type": "object",
+  "required": ["sessionId", "timestamp"],
+  "properties": {
+    "sessionId": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "model": { "type": "string" },
+    "inputTokens": { "type": "number" },
+    "outputTokens": { "type": "number" },
+    "notes": { "type": "string" }
+  }
+}

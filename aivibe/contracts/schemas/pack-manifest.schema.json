@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIVibe Pack Manifest",
+  "type": "object",
+  "required": ["name", "type", "purpose", "inputs", "outputs"],
+  "properties": {
+    "name": { "type": "string" },
+    "type": { "type": "string", "const": "pack" },
+    "purpose": { "type": "string" },
+    "inputs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "outputs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "lifecycle": { "type": "string" },
+    "verification": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

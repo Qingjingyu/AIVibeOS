@@ -1,0 +1,10 @@
+{
+  "intent": "The user wants to build a new feature but the scope is still vague.",
+  "stage": "pre-build",
+  "recommendedCommand": "/spec",
+  "recommendedSkills": [
+    "brainstorming-and-discovery",
+    "spec-driven-development"
+  ],
+  "escalateToOfficeHours": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "decision-20260422-001",
+  "timestamp": "2026-04-22T18:45:00Z",
+  "decision": "Use /spec before /build for all new feature work in the project instance.",
+  "reason": "The request was still ambiguous and lacked a written scope boundary.",
+  "affectedAreas": [
+    "commands/spec.md",
+    "skills/spec-driven-development/SKILL.md",
+    "aivibe/orchestrators/default-orchestrator/orchestrator.aivibe.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "release-bundle",
+  "type": "bundle",
+  "packs": [
+    "audit-pack",
+    "schedule-pack",
+    "skill-router-pack"
+  ],
+  "fitsRoles": [
+    "qa-agent",
+    "release-review-agent"
+  ],
+  "defaultFor": [
+    "review gate",
+    "ship"
+  ]
+}

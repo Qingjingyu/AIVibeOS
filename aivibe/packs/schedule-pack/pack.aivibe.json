@@ -1,0 +1,18 @@
+{
+  "name": "schedule-pack",
+  "type": "pack",
+  "purpose": "Define recurring or fixed-time actions that keep the system healthy over time.",
+  "inputs": [
+    "recurring checks",
+    "closeout actions"
+  ],
+  "outputs": [
+    "scheduled action list",
+    "execution cadence"
+  ],
+  "lifecycle": "periodic",
+  "verification": [
+    "scheduled actions are declared",
+    "cadence maps to real governance tasks"
+  ]
+}

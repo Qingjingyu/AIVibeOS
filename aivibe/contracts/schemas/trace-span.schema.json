@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIVibe Trace Span",
+  "type": "object",
+  "required": ["id", "stage", "status"],
+  "properties": {
+    "id": { "type": "string" },
+    "stage": { "type": "string" },
+    "status": { "type": "string" },
+    "startedAt": { "type": "string" },
+    "endedAt": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "research-bundle",
+  "type": "bundle",
+  "packs": [
+    "context-pack",
+    "skill-router-pack",
+    "audit-pack"
+  ],
+  "fitsRoles": [
+    "research-agent",
+    "pm-agent"
+  ],
+  "defaultFor": [
+    "discovery",
+    "spec preparation"
+  ]
+}

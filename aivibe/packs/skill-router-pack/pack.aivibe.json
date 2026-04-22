@@ -1,0 +1,20 @@
+{
+  "name": "skill-router-pack",
+  "type": "pack",
+  "purpose": "Route user intent to the right command, skill, or office-hours escalation path.",
+  "inputs": [
+    "user intent",
+    "current stage",
+    "risk level"
+  ],
+  "outputs": [
+    "recommended command",
+    "recommended skill",
+    "office-hours escalation flag"
+  ],
+  "lifecycle": "pre-task and stage-switch",
+  "verification": [
+    "routing result points to real commands or skills",
+    "high-risk ambiguity can escalate"
+  ]
+}

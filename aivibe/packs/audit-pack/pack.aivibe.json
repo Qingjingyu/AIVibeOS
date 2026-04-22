@@ -1,0 +1,20 @@
+{
+  "name": "audit-pack",
+  "type": "pack",
+  "purpose": "Capture key decisions, actions, and delivery evidence into durable audit artifacts.",
+  "inputs": [
+    "task result",
+    "key decisions",
+    "verification output"
+  ],
+  "outputs": [
+    "decision log",
+    "trace span",
+    "closeout evidence"
+  ],
+  "lifecycle": "during-task and post-task",
+  "verification": [
+    "decision records are present",
+    "trace output is linked to task stage"
+  ]
+}

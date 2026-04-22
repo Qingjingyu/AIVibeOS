@@ -1,0 +1,11 @@
+{
+  "name": "closeout-schedule",
+  "trigger": "end-of-work-cycle",
+  "steps": [
+    "phase-check",
+    "tool-registry",
+    "bootstrap-board",
+    "closeout"
+  ],
+  "owner": "release-bundle"
+}

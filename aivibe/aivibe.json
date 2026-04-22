@@ -1,0 +1,76 @@
+{
+  "version": "1",
+  "project": "aivibe-os",
+  "commands": [
+    "/spec",
+    "/plan",
+    "/build",
+    "/test",
+    "/review",
+    "/code-simplify",
+    "/ship"
+  ],
+  "skills": [
+    "spec-driven-development",
+    "planning-and-task-breakdown",
+    "incremental-implementation",
+    "test-driven-development",
+    "code-review-and-quality",
+    "shipping-and-launch"
+  ],
+  "profiles": [
+    "research-agent",
+    "pm-agent",
+    "architect-agent",
+    "frontend-agent",
+    "backend-agent",
+    "qa-agent",
+    "release-review-agent"
+  ],
+  "packs": [
+    {
+      "name": "context-pack",
+      "manifest": "packs/context-pack/pack.aivibe.json"
+    },
+    {
+      "name": "audit-pack",
+      "manifest": "packs/audit-pack/pack.aivibe.json"
+    },
+    {
+      "name": "schedule-pack",
+      "manifest": "packs/schedule-pack/pack.aivibe.json"
+    },
+    {
+      "name": "skill-router-pack",
+      "manifest": "packs/skill-router-pack/pack.aivibe.json"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "research-bundle",
+      "manifest": "bundles/research-bundle/bundle.aivibe.json"
+    },
+    {
+      "name": "release-bundle",
+      "manifest": "bundles/release-bundle/bundle.aivibe.json"
+    }
+  ],
+  "orchestrators": [
+    {
+      "name": "default-orchestrator",
+      "manifest": "orchestrators/default-orchestrator/orchestrator.aivibe.json"
+    }
+  ],
+  "hooks": [
+    "phase-check",
+    "tool-registry",
+    "bootstrap-board",
+    "closeout"
+  ],
+  "contextFiles": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "README.md",
+    "开发过程/020_AIVibe_OS_总索引.md"
+  ]
+}

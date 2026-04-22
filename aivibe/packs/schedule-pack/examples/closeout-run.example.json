@@ -1,0 +1,11 @@
+{
+  "schedule": "closeout-schedule",
+  "triggeredAt": "2026-04-22T19:00:00Z",
+  "result": "success",
+  "artifacts": [
+    "治理输出/phase-check/latest.txt",
+    "治理输出/tool-registry/latest-table.md",
+    "治理输出/bootstrap-board/latest.md",
+    "治理输出/closeout/latest.md"
+  ]
+}

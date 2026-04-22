@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIVibe Orchestrator Manifest",
+  "type": "object",
+  "required": ["name", "type", "stages"],
+  "properties": {
+    "name": { "type": "string" },
+    "type": { "type": "string", "const": "orchestrator" },
+    "stages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "escalationRules": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "completionChecks": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

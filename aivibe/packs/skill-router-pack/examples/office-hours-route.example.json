@@ -1,0 +1,11 @@
+{
+  "intent": "The team has failed three times on a high-risk architecture change.",
+  "stage": "blocked-build",
+  "recommendedCommand": "office-hours",
+  "recommendedSkills": [
+    "office-hours",
+    "review-gate"
+  ],
+  "escalateToOfficeHours": true,
+  "targetExpert": "office-hours-architecture"
+}

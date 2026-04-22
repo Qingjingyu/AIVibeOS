@@ -293,6 +293,23 @@ AIVibe OS 现在已经有很多“武器”了：
 - 风险或限制：当前还是系统级通用版，还没用真实产品项目做高强度闭环验证
 - 替代方案：继续让默认实现路径承担所有模糊决策和高风险判断
 
+### 19. AIVibe Pack / Bundle Skeleton
+
+- 类型：组织骨架层
+- 解决什么问题：把长期运行的数字员工系统拆成 Pack、Bundle、Orchestrator、Contracts 和实例配置，而不是只靠 skill 和 agent 名字硬撑
+- 什么时候用：需要让系统从“能做任务”升级成“能长期组织运行”时
+- 主要入口：
+  - `开发过程/107_AIVibe_OS_Pack_标准.md`
+  - `开发过程/108_AIVibe_OS_Bundle_标准.md`
+  - `开发过程/109_AIVibe_OS_Orchestrator_标准.md`
+  - `开发过程/110_AIVibe_OS_Contracts_与Schemas_规范.md`
+  - `开发过程/111_AIVibe_OS_aivibe_json_项目实例配置.md`
+  - `aivibe/`
+- 当前状态：已落地第一版骨架
+- 已验证场景：AIVibe OS 自举系统设计
+- 风险或限制：当前还是结构层，真正的长期运行和调度还需要真实项目继续验证
+- 替代方案：继续只用 skills 和 agents，而不补组织骨架层
+
 ---
 
 ## 四、推荐使用顺序

@@ -1,0 +1,29 @@
+{
+  "task": "new-feature-lifecycle",
+  "path": [
+    "/spec",
+    "/plan",
+    "/build",
+    "/test",
+    "/review",
+    "/ship"
+  ],
+  "escalations": [
+    {
+      "stage": "/build",
+      "reason": "Repeated failures",
+      "route": "systematic-debugging"
+    },
+    {
+      "stage": "/review",
+      "reason": "High-risk release concern",
+      "route": "office-hours-release"
+    }
+  ],
+  "completionChecks": [
+    "phase-check",
+    "tool-registry",
+    "bootstrap-board",
+    "closeout"
+  ]
+}

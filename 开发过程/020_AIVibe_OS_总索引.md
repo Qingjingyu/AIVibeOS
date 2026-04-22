@@ -171,6 +171,23 @@ AIVibe OS 是这个仓库的主系统入口。
 - [../skills/shipping-and-launch/SKILL.md](../skills/shipping-and-launch/SKILL.md)
 - [../skills/figma-to-code/SKILL.md](../skills/figma-to-code/SKILL.md)
 
+### Pack / Bundle / Orchestrator
+
+- [107_AIVibe_OS_Pack_标准.md](./107_AIVibe_OS_Pack_标准.md)
+- [108_AIVibe_OS_Bundle_标准.md](./108_AIVibe_OS_Bundle_标准.md)
+- [109_AIVibe_OS_Orchestrator_标准.md](./109_AIVibe_OS_Orchestrator_标准.md)
+- [110_AIVibe_OS_Contracts_与Schemas_规范.md](./110_AIVibe_OS_Contracts_与Schemas_规范.md)
+- [111_AIVibe_OS_aivibe_json_项目实例配置.md](./111_AIVibe_OS_aivibe_json_项目实例配置.md)
+- [../aivibe/README.md](../aivibe/README.md)
+- [../aivibe/aivibe.json](../aivibe/aivibe.json)
+- [../aivibe/contracts/README.md](../aivibe/contracts/README.md)
+- [../aivibe/packs/context-pack/README.md](../aivibe/packs/context-pack/README.md)
+- [../aivibe/packs/audit-pack/README.md](../aivibe/packs/audit-pack/README.md)
+- [../aivibe/packs/schedule-pack/README.md](../aivibe/packs/schedule-pack/README.md)
+- [../aivibe/packs/skill-router-pack/README.md](../aivibe/packs/skill-router-pack/README.md)
+- [../aivibe/bundles/research-bundle/README.md](../aivibe/bundles/research-bundle/README.md)
+- [../aivibe/bundles/release-bundle/README.md](../aivibe/bundles/release-bundle/README.md)
+
 ### 工具适配层
 
 - [../AGENTS.md](../AGENTS.md)

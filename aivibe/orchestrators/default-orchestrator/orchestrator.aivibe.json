@@ -1,0 +1,23 @@
+{
+  "name": "default-orchestrator",
+  "type": "orchestrator",
+  "stages": [
+    "/spec",
+    "/plan",
+    "/build",
+    "/test",
+    "/review",
+    "/ship"
+  ],
+  "escalationRules": [
+    "route ambiguous high-risk work to office-hours",
+    "route repeated failures to systematic-debugging",
+    "require verification-before-completion before completion claims"
+  ],
+  "completionChecks": [
+    "phase-check",
+    "tool-registry",
+    "bootstrap-board",
+    "closeout"
+  ]
+}

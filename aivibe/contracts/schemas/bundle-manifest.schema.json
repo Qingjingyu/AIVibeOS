@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIVibe Bundle Manifest",
+  "type": "object",
+  "required": ["name", "type", "packs", "fitsRoles"],
+  "properties": {
+    "name": { "type": "string" },
+    "type": { "type": "string", "const": "bundle" },
+    "packs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "fitsRoles": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "defaultFor": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
