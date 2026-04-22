@@ -2,6 +2,8 @@
 
 > Version: `v1.0.0-beta.1`
 
+[Quick Start](./QUICKSTART.md) | [Release Notes](./CHANGELOG.md) | [Release Draft](./RELEASE_DRAFT_v1.0.0-beta.1.md) | [License](./LICENSE)
+
 AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
 
 它不是一个单独的万能 Agent，也不是一堆散的提示词。它是一套把 AI 开发从“更快写 Demo”推进到“可验证、可回滚、可复用、可出货”的系统。

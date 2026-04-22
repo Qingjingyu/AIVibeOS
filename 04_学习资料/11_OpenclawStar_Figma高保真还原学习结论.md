@@ -9,7 +9,7 @@
 这次重点看的参考仓库是：
 
 - GitHub：<https://github.com/Qingjingyu/OpenclawStar>
-- 本地拉取位置：`/tmp/OpenclawStar`
+- 本地拉取位置：`<local-clone>/OpenclawStar`
 
 我们的目标不是照搬整套仓库，而是回收其中真正能帮助 AIVibe 做高保真还原的能力。
 
@@ -39,11 +39,11 @@ OpenclawStar 里和 Figma 设计还原最相关的，不是一个 skill，而是
 
 下面这些原始文件已经定位清楚，后续做页面还原时可以直接回看：
 
-- `/tmp/OpenclawStar/skills/design/figma/SKILL.md`
-- `/tmp/OpenclawStar/skills/design/figma-implement-design/SKILL.md`
-- `/tmp/OpenclawStar/skills/design/figma-pixel-replica/SKILL.md`
-- `/tmp/OpenclawStar/bootstrap/skill_packs.sh`
-- `/tmp/OpenclawStar/skills/INDEX.md`
+- `<local-clone>/OpenclawStar/skills/design/figma/SKILL.md`
+- `<local-clone>/OpenclawStar/skills/design/figma-implement-design/SKILL.md`
+- `<local-clone>/OpenclawStar/skills/design/figma-pixel-replica/SKILL.md`
+- `<local-clone>/OpenclawStar/bootstrap/skill_packs.sh`
+- `<local-clone>/OpenclawStar/skills/INDEX.md`
 
 如果只看两份，优先级是：
 

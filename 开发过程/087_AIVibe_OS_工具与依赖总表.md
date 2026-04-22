@@ -113,7 +113,7 @@ AIVibe OS 现在已经有很多“武器”了：
 - 什么时候用：设计到代码方法研究、脚本参考、SOP 提炼时
 - 主要入口：
   - GitHub：`https://github.com/Qingjingyu/OpenclawStar`
-  - 本地：`/tmp/OpenclawStar`
+  - 本地：`<local-clone>/OpenclawStar`
 - 当前状态：已学习并吸收部分方法
 - 已验证场景：Figma skill、pixel replica 思路、脚本参考
 - 风险或限制：不能整仓照搬，必须结合我们自己的系统边界
