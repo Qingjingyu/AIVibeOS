@@ -1,0 +1,14 @@
+---
+description: Markdown governance for AIVibe OS docs and skills
+globs:
+  - "**/*.md"
+  - "skills/**/SKILL.md"
+alwaysApply: false
+---
+
+# Markdown Governance
+
+- Prefer concise Chinese unless the target file is already English.
+- Keep documentation actionable, not essay-like.
+- When adding a new workflow artifact, update the relevant repo entrypoint.
+- Keep `commands/`, `skills/`, and operating docs aligned.

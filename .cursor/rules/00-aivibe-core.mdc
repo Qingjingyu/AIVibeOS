@@ -1,0 +1,12 @@
+---
+description: AIVibe OS core workflow and stage-first behavior
+alwaysApply: true
+---
+
+# AIVibe Core
+
+- Use `AGENTS.md` as the root contract.
+- Use `commands/` as the stage entry layer.
+- Use `skills/` as the executable workflow layer.
+- Prefer `/spec -> /plan -> /build -> /test -> /review -> /ship`.
+- Do not skip directly to implementation if the stage is still unclear.
