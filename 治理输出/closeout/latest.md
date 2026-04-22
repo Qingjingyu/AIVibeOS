@@ -1,6 +1,6 @@
 # AIVibe Closeout Snapshot
 
-生成时间：2026-04-22 16:52:23
+生成时间：2026-04-22 18:50:41
 
 ## 本轮固定收尾命令
 
@@ -31,7 +31,7 @@ bash ./scripts/governance/run-aivibe-closeout.sh
 - P2：已完成（10 / 10）
 - P3：未开始
 - 已落地治理脚本：5
-- 治理输出文件数：8
+- 治理输出文件数：20
 - Top能力 数量：1
 ```
 
