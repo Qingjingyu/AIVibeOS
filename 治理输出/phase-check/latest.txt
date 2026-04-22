@@ -1,0 +1,79 @@
+AIVibe Phase Check
+Target: .
+Scan Profile: project
+
+[OK] Research
+  - ./02_Spec模板/01_Research模板.md
+  - ./04_学习资料/05_Figma_到代码专题研究_Code_Connect_MCP_Tokens.md
+  - ./04_学习资料/06_AI_Runtime_专题研究_Tracing_Guardrails_Durability.md
+  - ./04_学习资料/10_产品设计专题研究_用户研究_ProductSense_原型验证.md
+  - ./04_学习资料/07_长任务与恢复专题研究_Durability_HITL_Tracing.md
+  - ./04_学习资料/12_2026_AI_Coding_工作流专题研究.md
+  - ./04_学习资料/09_产品能力专题研究_PMF_MVP_策略_实验.md
+  - ./04_学习资料/08_工程骨架专题研究_Monorepo_Sharing_Scaffolding.md
+
+[OK] Proposal
+  - ./02_Spec模板/02_Proposal模板.md
+
+[OK] Spec
+  - ./开发过程/082_AIVibe_OS_自我优化_Spec_v1.md
+  - ./02_Spec模板/04_DESIGN_MD官网型示例.md
+  - ./02_Spec模板/01_Research模板.md
+  - ./02_Spec模板/05_Tasks模板.md
+  - ./02_Spec模板/02_Proposal模板.md
+  - ./02_Spec模板/06_如何写一个好Spec.md
+  - ./02_Spec模板/03_DESIGN_MD视觉执行模板.md
+  - ./02_Spec模板/05_DESIGN_MD_B端产品型示例.md
+  - ./02_Spec模板/01_产品需求Spec模板.md
+  - ./02_Spec模板/00_模板使用说明.md
+  - ./02_Spec模板/02_技术设计Design模板.md
+
+[OK] Design
+  - ./开发过程/080_AIVibe_OS_DESIGN_MD_视觉执行规范.md
+  - ./开发过程/081_AIVibe_OS_DESIGN_MD_反模式与禁用场景.md
+  - ./开发过程/073_AIVibe_OS_产品设计专题吸收决策.md
+  - ./开发过程/030_AIVibe_OS_设计到代码实验记录模板.md
+  - ./开发过程/015_AIVibe_OS_AI_Runtime_目录设计.md
+  - ./开发过程/011_AIVibe_OS_最小设计到代码闭环实验.md
+  - ./02_Spec模板/04_DESIGN_MD官网型示例.md
+  - ./02_Spec模板/03_DESIGN_MD视觉执行模板.md
+  - ./02_Spec模板/05_DESIGN_MD_B端产品型示例.md
+  - ./02_Spec模板/02_技术设计Design模板.md
+  - ./04_学习资料/10_产品设计专题研究_用户研究_ProductSense_原型验证.md
+
+[OK] Tasks
+  - ./开发过程/038_AIVibe_OS_多Agent_任务推进示例.md
+  - ./开发过程/052_AIVibe_OS_长任务与恢复机制.md
+  - ./开发过程/053_AIVibe_OS_长任务专题吸收决策.md
+  - ./开发过程/055_AIVibe_OS_长任务状态模型.md
+  - ./02_Spec模板/05_Tasks模板.md
+  - ./04_学习资料/07_长任务与恢复专题研究_Durability_HITL_Tracing.md
+
+[OK] QA
+  - ./开发过程/018_AIVibe_OS_QA_执行模板.md
+  - ./开发过程/091_AIVibe_OS_QA_与发布_时间线入口.md
+  - ./03_QA与验收/03_Release模板.md
+  - ./03_QA与验收/02_QA测试模板.md
+  - ./03_QA与验收/01_通用QA检查清单.md
+  - ./03_QA与验收/04_QA操作手册.md
+  - ./03_QA与验收/05_自动化测试策略.md
+
+[OK] Release / Rollback
+  - ./开发过程/019_AIVibe_OS_发布与回滚模板.md
+  - ./开发过程/036_AIVibe_OS_发布后复盘模板.md
+  - ./开发过程/043_AIVibe_OS_回滚演练模板.md
+  - ./开发过程/091_AIVibe_OS_QA_与发布_时间线入口.md
+  - ./开发过程/049_AIVibe_OS_发布事故记录模板.md
+  - ./开发过程/007_AIVibe_OS_质量与发布标准.md
+  - ./03_QA与验收/03_Release模板.md
+
+[OK] README
+  - README.md
+
+Phase Summary
+[READY] Discovery
+[READY] Planning
+[READY] Polish / QA
+[READY] Handoff
+
+Missing Next Actions
