@@ -2,13 +2,33 @@
 
 > Version: `v1.0.0-beta.1`
 
-[Quick Start](./QUICKSTART.md) | [Release Notes](./CHANGELOG.md) | [Release Draft](./RELEASE_DRAFT_v1.0.0-beta.1.md) | [License](./LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.0.0--beta.1-0A7CFF.svg)](./VERSION)
+[![License](https://img.shields.io/badge/license-MIT-111111.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/status-public%20beta-2E8B57.svg)](./CHANGELOG.md)
+
+[Quick Start](./QUICKSTART.md) | [Release Notes](./CHANGELOG.md) | [Release Draft](./RELEASE_DRAFT_v1.0.0-beta.1.md) | [License](./LICENSE) | [Repo Metadata](./REPO_METADATA.md)
 
 AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
 
 它不是一个单独的万能 Agent，也不是一堆散的提示词。它是一套把 AI 开发从“更快写 Demo”推进到“可验证、可回滚、可复用、可出货”的系统。
 
-## 它适合什么
+## TL;DR
+
+- 用统一的 `commands + skills + adapters + governance` 把 AI 开发固定成产线
+- 让 Claude Code、Cursor、Codex-compatible 工具吃同一套规则
+- 把需求、实现、测试、评审、发布串成可重复交付流程
+
+## What You Get
+
+- 7 个标准 commands
+- 25 个 root skills
+- Claude / Cursor 适配层
+- Claude 项目级 skills 与专家会诊 subagents
+- Figma 高保真还原能力包
+- QA / 发布 / 回滚模板
+- 固定治理输出
+
+## Best Fit
 
 如果你正在做这些事，它就是给你用的：
 
@@ -16,6 +36,12 @@ AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
 - 想统一需求、实现、测试、评审、发布这条链路
 - 想让 Claude、Cursor、Codex 这些工具都接到同一套规则上
 - 想给团队一套可以直接复用的开发底座
+
+## Not For
+
+- 期待零配置全自动出货的人
+- 不愿意维护规范、验证和回滚的人
+- 只想要一个随手写代码的聊天机器人，而不是完整工作流的人
 
 ## 当前发布状态
 
@@ -50,7 +76,7 @@ AIVibe OS 是一套面向真实产品交付的人机协同开发操作系统。
 - `开发过程/`
   系统级母文档、路线图、规则、模板和治理说明
 
-## 快速入口
+## Start Here
 
 如果你第一次上手，按这个顺序：
 
