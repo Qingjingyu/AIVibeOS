@@ -1,0 +1,13 @@
+.DS_Store
+
+# Internal planning scratch
+docs/plans/
+
+# Third-party local reference package, not part of public release
+lennys-podcast-newsletter-main/
+
+# Keep latest governance outputs, ignore timestamped snapshots
+治理输出/bootstrap-board/bootstrap-board-*.md
+治理输出/closeout/closeout-*.md
+治理输出/phase-check/phase-check-*.txt
+治理输出/tool-registry/tool-registry-*.md
